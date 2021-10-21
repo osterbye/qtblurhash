@@ -24,7 +24,7 @@ QImage imageFromBlurHash(QByteArray *blurhash, int width, int height, int punch)
 * `blurhash`: A pointer to a QByteArray containing the BlurHash. The QByteArray must remain valid for the entire decoding.
 * `width`: Width of the blurred output image.
 * `height`: Height of the blurred output image.
-* `punch` (optinal): Adjusts the contrast of the output image. Tweak it if you want a different look for your placeholders.
+* `punch` (optional): Adjusts the contrast of the output image. Tweak it if you want a different look for your placeholders.
 
 ## How to build as a library
 Build the project in the subfolder _qtblurhash/_.
