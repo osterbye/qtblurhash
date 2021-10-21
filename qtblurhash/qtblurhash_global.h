@@ -1,0 +1,12 @@
+#ifndef QTBLURHASH_GLOBAL_H
+#define QTBLURHASH_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QTBLURHASH_LIBRARY)
+#define QTBLURHASH_EXPORT Q_DECL_EXPORT
+#else
+#define QTBLURHASH_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QTBLURHASH_GLOBAL_H
