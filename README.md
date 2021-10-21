@@ -1,0 +1,2 @@
+# qtblurhash
+QtBlurHash
