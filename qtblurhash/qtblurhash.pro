@@ -19,3 +19,7 @@ HEADERS += \
     qtblurhash_global.h
 
 DESTDIR = $$_PRO_FILE_PWD_/../bin/
+OBJECTS_DIR = $$_PRO_FILE_PWD_/../build/.obj
+MOC_DIR = $$_PRO_FILE_PWD_/../build/.moc
+RCC_DIR = $$_PRO_FILE_PWD_/../build/.qrc
+UI_DIR = $$_PRO_FILE_PWD_/../build/.ui
